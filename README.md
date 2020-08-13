@@ -1,5 +1,7 @@
 # k3s-lab
 
+WORK IN PROGRESS
+
 As simple as possible Ansible playbook to bootstrap a k3s cluster.
 
 This playbook runs on a fresh new Ubuntu server setup. It is being
