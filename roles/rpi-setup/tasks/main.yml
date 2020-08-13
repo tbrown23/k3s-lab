@@ -1,0 +1,10 @@
+---
+- name: convenient apps
+  package:
+    name: '{{ packages }}'
+    state: present
+
+- name: starting zram-config
+  service:
+    name: zram-config
+    state: started
